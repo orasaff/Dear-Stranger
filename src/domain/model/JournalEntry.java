@@ -7,7 +7,7 @@ public class JournalEntry {
 
     private final String userId;
     private final String journalId;
-    private final String currentPrompt;
+    private final String prompt;
     private final ArrayList arrayList;
     private final String cleanedOutput;
     private final LocalDateTime createdAt;
@@ -20,7 +20,7 @@ public class JournalEntry {
         // TO-DO: how to generate ids by system?
         // use UUID
         this.userId = userId;
-        this.currentPrompt = starterPrompt;
+        this.prompt = starterPrompt;
         this.arrayList = arrayList;
         this.cleanedOutput = cleanedOutput;
         this.createdAt = now;
@@ -29,8 +29,8 @@ public class JournalEntry {
 
     }
 
-    public String getCurrentPrompt() {
-        return this.currentPrompt;
+    public String getPrompt() {
+        return this.prompt;
     }
 
     public String getJournalId() {

@@ -14,7 +14,7 @@ public class Main {
         );
         JournalEntry result = useCase.startNewJournalSession("user1");
 
-        System.out.println("Prompt: " + result.getCurrentPrompt());
+        System.out.println("Prompt: " + result.getPrompt());
         System.out.println("Time: " + result.getCreatedAt());
         System.out.println("Journal ID: " + result.getJournalId());
     }
