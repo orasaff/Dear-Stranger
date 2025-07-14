@@ -16,6 +16,7 @@ public class GenerateFollowUpQuestionImpl implements GenerateFollowUpQuestion {
 
     @Override
     public String generateFollowUpQuestion(String context) {
+        // mock version
         int index = random.nextInt(QUESTIONS.length);
         return QUESTIONS[index];
     }
