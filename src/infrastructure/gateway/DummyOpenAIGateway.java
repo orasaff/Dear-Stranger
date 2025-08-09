@@ -5,7 +5,7 @@ import java.util.List;
 public class DummyOpenAIGateway implements OpenAIGateway {
     @Override
     public String generateStarterPrompt() {
-        return "What’s something you want to share about today?";
+        return "What is something you want to share about today?";
     }
 
     // not yet used because no api call yet. currently using mock version in generatefollowwupimpl.java
