@@ -6,9 +6,11 @@ public class GenerateFollowUpQuestionImpl implements GenerateFollowUpQuestion {
 
     private static final String[] QUESTIONS = {
             "What was going through your mind at the time?",
+            "What stood out to you the most about that?",
+            "What is that you really care about?",
             "Can you tell me more about that?",
-            "What part stood out to you the most?",
-            "Do you think this ties into something deeper you’ve been feeling lately?"
+            "I'm interested, what's more?",
+            "Keep talking, I'm listening!"
     };
 
     private final Random random = new Random();
